@@ -13,3 +13,5 @@ Kubectl is to access any Kubernetes components
 - Verify pod changes: `kubectl describe pod [pod name]`
 - Debug pods: `kubectl logs [pod-name]`
 - Get inside the terminal of container: `kubectl exec -it [pod name] -- bin/bash`
+- Apply configuration file: `kubectl apply -f config-file.yaml`
+- Delete configuration from file: `kubectl delete -f config-file.yaml`
