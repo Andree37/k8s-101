@@ -5,6 +5,7 @@ Kubectl is to access any Kubernetes components
 ## Minikube
 - Start with: `minikube start --vm-driver=hyperkit`
 - Stauts with: `minikube status`
+- Assign an external service with Minikube: `minikube service [external service name]`
 
 ## Kubectl
 - Get node status: `kubectl get [nodes,deployment,pod,replicaset,...]`
@@ -17,4 +18,4 @@ Kubectl is to access any Kubernetes components
 - Delete configuration from file: `kubectl delete -f config-file.yaml`
 - Describe endpoints of service `kubectl describe service [service name]`
 - Deployed deployment configuration: `kubectl get deployment [deployment name] -o yaml > deployment-result.yaml`
-- Assign an external service with Minikube: `minikube service [external service name]` 
+- See namespaces: `kubectl get namespace`
