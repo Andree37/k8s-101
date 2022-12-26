@@ -17,3 +17,4 @@ Kubectl is to access any Kubernetes components
 - Delete configuration from file: `kubectl delete -f config-file.yaml`
 - Describe endpoints of service `kubectl describe service [service name]`
 - Deployed deployment configuration: `kubectl get deployment [deployment name] -o yaml > deployment-result.yaml`
+- Assign an external service with Minikube: `minikube service [external service name]` 
