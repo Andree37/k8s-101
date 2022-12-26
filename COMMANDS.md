@@ -15,3 +15,5 @@ Kubectl is to access any Kubernetes components
 - Get inside the terminal of container: `kubectl exec -it [pod name] -- bin/bash`
 - Apply configuration file: `kubectl apply -f config-file.yaml`
 - Delete configuration from file: `kubectl delete -f config-file.yaml`
+- Describe endpoints of service `kubectl describe service [service name]`
+- Deployed deployment configuration: `kubectl get deployment [deployment name] -o yaml > deployment-result.yaml`
